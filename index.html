@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>BVPIEEE | Passion For Perfection</title>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<link rel="stylesheet" href="css/styles.css" type="text/css" />
+		<!--[if IE 7]>
+		<link type="text/css" rel="stylesheet" href="css/ie7.css" media="screen,tv" />
+		<![endif]-->
+		<!--[if lte IE 6]>
+		<link type="text/css" rel="stylesheet" href="css/ie6.css" media="screen,tv" />
+		<![endif]-->
+		<script type="text/javascript" src="scripts/jquery.min.js"></script>
+		<script type="text/javascript" src="scripts/jquery.cycle.all.min.js"></script>
+		<script type="text/javascript">
+			$.noConflict();
+			jQuery(document).ready(function() {			
+				jQuery('#slideshow').cycle({ 
+					fx: 'turnDown', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+					timeout: 6000,
+					prev: '#prev',
+					next: '#next',
+					cleartypeNoBg: true,
+					pause:   1 // pauses slideshow on hover 
+				});
+				
+				jQuery('#slideshow2').cycle({ 
+					fx: 'turnDown', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+					timeout: 6000,
+					prev: '#prev2',
+					next: '#next2',
+					cleartypeNoBg: true,
+					pause:   1 // pauses slideshow on hover 
+				});
+				
+				jQuery('#slideshow3').cy

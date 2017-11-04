@@ -1,4 +1,5 @@
 #BVPIEEE Website 
 
-Website of Student Branch of IEEE, Bharati vidyapeeth's College Of Engineering, New Delhi in HTML, CSS, JavaScript
+Website of Student Branch of IEEE, Bharati Vidyapeeth's College of Engineering, New Delhi</br>
+Technology Stack: HTML, CSS, JavaScript</br>
 Link : http://bvpieee.com/
